@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Admission Form</title>
+</head>
+<body>
+
+    <h1>University Admission Form</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <p>
+                <label>
+                    Full Name:
+                    <input type="text" name="fullname" maxlength="50" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Email Address:
+                    <input type="email" name="email" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Date of Birth:
+                    <input type="date" name="dob" required>
+                </label>
+            </p>
+
+            <p>
+                Gender:
+                <label><input type="radio" name="gender" value="male" required> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+            </p>
+
+            <p>
+                Interests (Choose multiple):
+                <label><input type="checkbox" name="interest" value="coding"> Coding</label>
+                <label><input type="checkbox" name="interest" value="sports"> Sports</label>
+                <label><input type="checkbox" name="interest" value="music"> Music</label>
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            <p>
+                <label>
+                    Previous Institution:
+                    <input type="text" name="institution" maxlength="60" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    SSC Result:
+                    <input type="text" name="ssc" maxlength="4" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    HSC Result:
+                    <input type="text" name="hsc" maxlength="4" required>
+                </label>
+            </p>
+
+            <p>
+                Preferred Department:
+                <select name="department" required>
+                    <option value="">-- Select Department --</option>
+                    <option value="cse">Computer Science & Engineering</option>
+                    <option value="eee">Electrical & Electronic Engineering</option>
+                    <option value="bba">Business Administration</option>
+                    <option value="arch">Architecture</option>
+                </select>
+            </p>
+
+            <p>
+                <label>
+                    Upload Transcript:
+                    <input type="file" name="transcript" required>
+                </label>
+            </p>
+
+        </fieldset>
+
+        <p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </p>
+
+    </form>
+
+</body>
+</html>
