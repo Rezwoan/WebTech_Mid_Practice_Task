@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f4f6;
+}
+
+.sidebar,
+.main,
+.ads {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 16px;
+    margin: 12px 4px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+}
+
+/* wider columns with a safe minimum width so text doesn't get squashed */
+.sidebar {
+    width: 20%;
+    min-width: 220px;
+    background-color: #e0f2fe;
+}
+
+.main {
+    width: 58%;
+    min-width: 320px;
+    background-color: #fffbeb;
+}
+
+.ads {
+    width: 20%;
+    min-width: 220px;
+    background-color: #fee2e2;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+p {
+    margin: 6px 0;
+    font-size: 14px;
+}
