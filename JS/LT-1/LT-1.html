@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form Validation</title>
+  <link rel="stylesheet" href="LT-1.css">
+</head>
+<body>
+  <h1>Student Portal Signup</h1>
+  <form id="registrationForm" novalidate>
+    <label>
+      Full Name
+      <input type="text" id="fullName">
+      <div class="error" id="nameError"></div>
+    </label>
+    <label>
+      Email
+      <input type="email" id="email">
+      <div class="error" id="emailError"></div>
+    </label>
+    <label>
+      Password
+      <input type="password" id="password">
+      <div class="error" id="passwordError"></div>
+    </label>
+    <label>
+      Confirm Password
+      <input type="password" id="confirmPassword">
+      <div class="error" id="confirmPasswordError"></div>
+    </label>
+    <label>
+      Phone Number
+      <input type="text" id="phone">
+      <div class="error" id="phoneError"></div>
+    </label>
+    <button type="submit">Register</button>
+    <div class="success" id="successMessage"></div>
+  </form>
+  <script src="LT-1.js"></script>
+</body>
+</html>
