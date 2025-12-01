@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+header, footer {
+  padding: 20px;
+  text-align: center;
+}
+main {
+  padding: 20px;
+  min-height: 200px;
+  text-align: center;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+}
+button:hover {
+  background-color: #0056b3;
+}
