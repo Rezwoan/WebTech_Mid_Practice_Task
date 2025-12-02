@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Portfolio</title>
+  <link rel="stylesheet" href="LT-9.css">
+</head>
+<body>
+  <header>
+    <div id="greeting"></div>
+    <button id="themeToggle">Switch to Dark Mode</button>
+    <nav>
+      <ul>
+        <li><a href="#" data-target="about">About</a></li>
+        <li><a href="#" data-target="projects">Projects</a></li>
+        <li><a href="#" data-target="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about" class="section active">
+      <h2>About Me</h2>
+      <p>Din Muhammad Rezwoan is a Computer Science &amp; Engineering student based in Dhaka, Bangladesh. He specializes in writing clean, efficient code and developing scalable applications. He is passionate about full‑stack development, automation and building real‑world software solutions. He loves solving complex problems and is currently focused on developing robust desktop, web and backend applications using C++, Python, JavaScript and modern frameworks【192370808570453†L6-L12】.</p>
+    </section>
+    <section id="projects" class="section">
+      <h2>Highlighted Projects</h2>
+      <ul>
+        <li>Developed automation and error‑handling scripts for Playchike (freelance)【192370808570453†L18-L22】.</li>
+        <li>Built a custom admin dashboard and content tools for TheMothersHub project【192370808570453†L18-L22】.</li>
+        <li>Created Python utilities for scraping, parsing and organizing resumes (Fursume)【192370808570453†L18-L22】.</li>
+        <li>Designed CLI tools and monitoring scripts for personal and client‑side projects【192370808570453†L18-L22】.</li>
+      </ul>
+    </section>
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form id="contactForm" novalidate>
+        <label>
+          Name<br>
+          <input type="text" id="contactName">
+          <div class="error" id="contactNameError"></div>
+        </label>
+        <label>
+          Email<br>
+          <input type="email" id="contactEmail">
+          <div class="error" id="contactEmailError"></div>
+        </label>
+        <label>
+          Message<br>
+          <textarea id="contactMessage" rows="5"></textarea>
+          <div class="error" id="contactMessageError"></div>
+        </label>
+        <button type="submit">Send Message</button>
+        <div class="success" id="contactSuccess"></div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <small>&copy; 2025 Din Muhammad Rezwoan</small>
+  </footer>
+  <script src="LT-9.js"></script>
+</body>
+</html>
