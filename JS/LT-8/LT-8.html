@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynamic Form Field Display</title>
+  <link rel="stylesheet" href="LT-8.css">
+</head>
+<body>
+  <h1>Smart Registration Form</h1>
+  <div class="form-container">
+    <label>
+      User Type
+      <select id="userType">
+        <option value="">Select user type</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+      </select>
+    </label>
+    <div id="rollGroup" style="display: none;">
+      <label>
+        Roll Number
+        <input type="text" id="rollNumber" placeholder="Enter Roll Number">
+      </label>
+    </div>
+    <div id="deptGroup" style="display: none;">
+      <label>
+        Department
+        <input type="text" id="department" placeholder="Enter Department">
+      </label>
+    </div>
+  </div>
+  <script src="LT-8.js"></script>
+</body>
+</html>
