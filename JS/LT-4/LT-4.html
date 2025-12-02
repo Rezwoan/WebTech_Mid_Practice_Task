@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Editable Student Table</title>
+  <link rel="stylesheet" href="LT-4.csss">
+</head>
+<body>
+  <h1>Student Management System</h1>
+  <div class="form-group">
+    <input type="text" id="studentName" placeholder="Name">
+    <input type="text" id="studentRoll" placeholder="Roll">
+    <input type="text" id="studentDept" placeholder="Department">
+    <button id="addBtn">Add Student</button>
+  </div>
+  <div id="errorMsg" class="error"></div>
+  <table id="studentsTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Roll</th>
+        <th>Department</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <script src="LT-4.js"></script>
+</body>
+</html>
