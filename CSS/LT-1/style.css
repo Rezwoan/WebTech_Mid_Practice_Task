@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f6fa;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+header, footer {
+    text-align: center;
+    margin: 25px 0;
+    color: #444;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+.profile-box {
+    width: 60%;
+    max-width: 480px;
+    background: #ffffff;
+    margin: 0 auto 30px auto;
+    padding: 25px;
+    border: 1px solid #e2e6ee;
+    border-radius: 12px;
+    text-align: center;
+    box-sizing: border-box;
+
+    
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    
+}
+
+h2 {
+    font-size: 1.7em;
+    margin: 0.3em 0;
+}
+
+.p1 {
+    font-size: 0.95em;
+    margin: 0.2em 0;
+    color: #555;
+}
+
+.bio {
+    margin-top: 1em;
+    line-height: 1.6em;
+    font-size: 1em;
+    color: #333;
+}
+
+footer p {
+    font-size: 0.85em;
+    color: #666;
+}
